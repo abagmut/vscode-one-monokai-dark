@@ -4,7 +4,7 @@
       "name": "Comment",
       "scope": ["comment", "string.comment"],
       "settings": {
-        "foreground": "#676f7d",
+        "foreground": "#9e9c9cd5",
         "fontStyle": "italic"
       }
     },
@@ -476,19 +476,20 @@
     "editorCursor.foreground": "#f8f8f0",
     "editor.findMatchBorder": "#457dffbd",
     "editor.findMatchHighlightBackground": "#314365",
+    "editor.findMatchHighlightBorder": "#fbe200a6",
     "editorGroup.border": "#181A1F",
     "editorGroupHeader.tabsBackground": "#21252B",
-    "editorIndentGuide.background": "#3B4048",
+    "editorIndentGuide.background1": "#3B4048",
     "editorLineNumber.foreground": "#495162",
     "editorWhitespace.foreground": "#484a50",
     "editorHoverWidget.background": "#21252B",
     "editorHoverWidget.border": "#181A1F",
     "editorSuggestWidget.background": "#21252B",
     "editorSuggestWidget.border": "#181A1F",
-    "editorSuggestWidget.selectedBackground": "#2c313a",
+    "editorSuggestWidget.selectedBackground": "#03385e",
     "editorWidget.background": "#21252B",
     "input.background": "#1d1f23",
-    "list.activeSelectionBackground": "#2c313a",
+    "list.activeSelectionBackground": "#03385e",
     "list.activeSelectionForeground": "#d7dae0",
     "list.focusBackground": "#2c313c",
     "list.hoverBackground": "#292d35",
@@ -505,14 +506,15 @@
     "statusBarItem.hoverBackground": "#2c313a",
     "statusBar.noFolderBackground": "#21252B",
     "statusBar.debuggingBackground": "#21252B",
-    "tab.activeBackground": "#2c313c",
+    "tab.activeBackground": "#1F232B",
+    "tab.activeBorderTop": "#5c5c5c",
     "tab.border": "#181A1F",
-    "tab.inactiveBackground": "#21252B",
+    "tab.inactiveBackground": "#2b2d32",
     "tab.hoverBackground": "#323842",
     "titleBar.activeBackground": "#1f232b",
     "titleBar.activeForeground": "#9da5b4",
     "titleBar.inactiveBackground": "#1f232b",
     "titleBar.inactiveForeground": "#6B717D"
   },
-  "name": "One Monokai"
+  "name": "One Monokai Dark+"
 }
