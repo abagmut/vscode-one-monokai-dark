@@ -1,4 +1,7 @@
 {
+  "type": "dark",
+  "name": "One Monokai Dark+",
+  "semanticHighlighting": true,
   "tokenColors": [
     {
       "name": "Comment",
@@ -515,6 +518,5 @@
     "titleBar.activeForeground": "#9da5b4",
     "titleBar.inactiveBackground": "#1f232b",
     "titleBar.inactiveForeground": "#6B717D"
-  },
-  "name": "One Monokai Dark+"
+  }
 }
