@@ -134,13 +134,6 @@
       }
     },
     {
-      "name": "Variable Object",
-      "scope": "variable.other.object",
-      "settings": {
-        "foreground": "#61afef"
-      }
-    },
-    {
       "name": "Other variable",
       "scope": ["variable.other.property", "variable.other.block"],
       "settings": {
@@ -478,18 +471,15 @@
     "editor.selectionHighlightBackground": "#ffffff10",
     "editorCursor.foreground": "#f8f8f0",
     "editor.findMatchBorder": "#457dffbd",
-    "editor.findMatchHighlightBackground": "#314365",
-    "editor.findMatchHighlightBorder": "#fbe200a6",
     "editorGroup.border": "#181A1F",
     "editorGroupHeader.tabsBackground": "#21252B",
     "editorIndentGuide.background1": "#3B4048",
     "editorLineNumber.foreground": "#495162",
+    "editorLineNumber.activeForeground": "#50bbf8",
     "editorWhitespace.foreground": "#484a50",
     "editorHoverWidget.background": "#21252B",
     "editorHoverWidget.border": "#181A1F",
     "editorSuggestWidget.background": "#21252B",
-    "editorSuggestWidget.border": "#181A1F",
-    "editorSuggestWidget.selectedBackground": "#03385e",
     "editorWidget.background": "#21252B",
     "input.background": "#1d1f23",
     "list.activeSelectionBackground": "#03385e",
@@ -510,7 +500,7 @@
     "statusBar.noFolderBackground": "#21252B",
     "statusBar.debuggingBackground": "#21252B",
     "tab.activeBackground": "#1F232B",
-    "tab.activeBorderTop": "#5c5c5c",
+    "tab.activeBorderTop": "#9e9e9e",
     "tab.border": "#181A1F",
     "tab.inactiveBackground": "#2b2d32",
     "tab.hoverBackground": "#323842",
