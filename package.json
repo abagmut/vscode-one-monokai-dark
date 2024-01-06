@@ -2,7 +2,7 @@
   "name": "one-monokai-dark-plus",
   "displayName": "One Monokai Dark+ Theme",
   "description": "A cross between Monokai and One Dark theme",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "publisher": "abagmut",
   "license": "MIT",
   "engines": {
@@ -20,9 +20,9 @@
         "path": "./themes/OneMonokaiDark-color-theme.json"
       },
       {
-        "label": "One Monokai Darker+",
+        "label": "One Monokai Dark+ Semantic",
         "uiTheme": "vs-dark",
-        "path": "./themes/OneMonokaiDarker-color-theme.json"
+        "path": "./themes/OneMonokaiDarkSemantic-color-theme.json"
       }
     ]
   },

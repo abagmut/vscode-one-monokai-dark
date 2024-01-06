@@ -1,7 +1,62 @@
 {
     "type": "dark",
     "name": "One Monokai Dark+",
-    "semanticHighlighting": true,
+    "colors": {
+        "activityBar.background": "#23252e",
+        "activityBar.inactiveForeground": "#5F6672",
+        "activityBar.foreground": "#D7DAE0",
+        "activityBarBadge.background": "#528bff",
+        "activityBarBadge.foreground": "#F8FAFD",
+        "button.background": "#528bff",
+        "dropdown.background": "#1d1f23",
+        "diffEditor.insertedTextBackground": "#00809B33",
+        "dropdown.border": "#181A1F",
+        "editor.background": "#1f232b",
+        "editorError.foreground": "#c24038",
+        "editorRuler.foreground": "#484848",
+        "editor.lineHighlightBackground": "#2c313c",
+        "editor.selectionBackground": "#67769660",
+        "editor.selectionHighlightBackground": "#ffffff10",
+        "editorCursor.foreground": "#f8f8f0",
+        "editor.findMatchBorder": "#457dffbd",
+        "editorGroup.border": "#181A1F",
+        "editorGroupHeader.tabsBackground": "#21252B",
+        "editorIndentGuide.background1": "#3B4048",
+        "editorLineNumber.foreground": "#495162",
+        "editorLineNumber.activeForeground": "#50bbf8",
+        "editorWhitespace.foreground": "#484a50",
+        "editorHoverWidget.background": "#21252B",
+        "editorHoverWidget.border": "#181A1F",
+        "editorSuggestWidget.background": "#21252B",
+        "editorWidget.background": "#21252B",
+        "input.background": "#1d1f23",
+        "list.activeSelectionBackground": "#03385e",
+        "list.activeSelectionForeground": "#d7dae0",
+        "list.focusBackground": "#2c313c",
+        "list.hoverBackground": "#292d35",
+        "list.highlightForeground": "#C5C5C5",
+        "list.inactiveSelectionBackground": "#2c313a",
+        "list.inactiveSelectionForeground": "#d7dae0",
+        "scrollbarSlider.background": "#4E566680",
+        "scrollbarSlider.activeBackground": "#747D9180",
+        "scrollbarSlider.hoverBackground": "#5A637580",
+        "sideBar.background": "#21252b",
+        "sideBarSectionHeader.background": "#1f232b",
+        "statusBar.background": "#21252B",
+        "statusBar.foreground": "#9da5b4",
+        "statusBarItem.hoverBackground": "#2c313a",
+        "statusBar.noFolderBackground": "#21252B",
+        "statusBar.debuggingBackground": "#21252B",
+        "tab.activeBackground": "#1F232B",
+        "tab.activeBorderTop": "#9e9e9e",
+        "tab.border": "#181A1F",
+        "tab.inactiveBackground": "#2b2d32",
+        "tab.hoverBackground": "#323842",
+        "titleBar.activeBackground": "#1f232b",
+        "titleBar.activeForeground": "#9da5b4",
+        "titleBar.inactiveBackground": "#1f232b",
+        "titleBar.inactiveForeground": "#6B717D"
+    },
     "tokenColors": [
         {
             "name": "Comment",
@@ -125,7 +180,6 @@
             "scope": [
                 "entity.name.class",
                 "entity.name.module",
-                "entity.name.type",
                 "storage.identifier",
                 "support.class"
             ],
@@ -144,7 +198,7 @@
             "name": "Inherited class",
             "scope": "entity.other.inherited-class",
             "settings": {
-                "foreground": "#95c673"
+                "foreground": "#61afef"
             }
         },
         {
@@ -201,15 +255,8 @@
             }
         },
         {
-            "name": "Library constant",
-            "scope": "support.constant",
-            "settings": {
-                "foreground": "#56b6c2"
-            }
-        },
-        {
             "name": "Library class/type",
-            "scope": ["support.type", "support.variable"],
+            "scope": ["support.type"],
             "settings": {
                 "foreground": "#56b6c2"
             }
@@ -418,61 +465,5 @@
                 "fontStyle": "italic"
             }
         }
-    ],
-    "colors": {
-        "activityBar.background": "#23252e",
-        "activityBar.inactiveForeground": "#5F6672",
-        "activityBar.foreground": "#D7DAE0",
-        "activityBarBadge.background": "#528bff",
-        "activityBarBadge.foreground": "#F8FAFD",
-        "button.background": "#528bff",
-        "dropdown.background": "#1d1f23",
-        "diffEditor.insertedTextBackground": "#00809B33",
-        "dropdown.border": "#181A1F",
-        "editor.background": "#1f232b",
-        "editorError.foreground": "#c24038",
-        "editorRuler.foreground": "#484848",
-        "editor.lineHighlightBackground": "#2c313c",
-        "editor.selectionBackground": "#67769660",
-        "editor.selectionHighlightBackground": "#ffffff10",
-        "editorCursor.foreground": "#f8f8f0",
-        "editor.findMatchBorder": "#457dffbd",
-        "editorGroup.border": "#181A1F",
-        "editorGroupHeader.tabsBackground": "#21252B",
-        "editorIndentGuide.background1": "#3B4048",
-        "editorLineNumber.foreground": "#495162",
-        "editorLineNumber.activeForeground": "#50bbf8",
-        "editorWhitespace.foreground": "#484a50",
-        "editorHoverWidget.background": "#21252B",
-        "editorHoverWidget.border": "#181A1F",
-        "editorSuggestWidget.background": "#21252B",
-        "editorWidget.background": "#21252B",
-        "input.background": "#1d1f23",
-        "list.activeSelectionBackground": "#03385e",
-        "list.activeSelectionForeground": "#d7dae0",
-        "list.focusBackground": "#2c313c",
-        "list.hoverBackground": "#292d35",
-        "list.highlightForeground": "#C5C5C5",
-        "list.inactiveSelectionBackground": "#2c313a",
-        "list.inactiveSelectionForeground": "#d7dae0",
-        "scrollbarSlider.background": "#4E566680",
-        "scrollbarSlider.activeBackground": "#747D9180",
-        "scrollbarSlider.hoverBackground": "#5A637580",
-        "sideBar.background": "#21252b",
-        "sideBarSectionHeader.background": "#1f232b",
-        "statusBar.background": "#21252B",
-        "statusBar.foreground": "#9da5b4",
-        "statusBarItem.hoverBackground": "#2c313a",
-        "statusBar.noFolderBackground": "#21252B",
-        "statusBar.debuggingBackground": "#21252B",
-        "tab.activeBackground": "#1F232B",
-        "tab.activeBorderTop": "#9e9e9e",
-        "tab.border": "#181A1F",
-        "tab.inactiveBackground": "#2b2d32",
-        "tab.hoverBackground": "#323842",
-        "titleBar.activeBackground": "#1f232b",
-        "titleBar.activeForeground": "#9da5b4",
-        "titleBar.inactiveBackground": "#1f232b",
-        "titleBar.inactiveForeground": "#6B717D"
-    }
+    ]
 }
