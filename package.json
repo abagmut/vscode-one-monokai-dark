@@ -20,9 +20,9 @@
         "path": "./themes/OneMonokaiDark-color-theme.json"
       },
       {
-        "label": "One Monokai Darker+",
+        "label": "One Monokai Dark+ Semantic",
         "uiTheme": "vs-dark",
-        "path": "./themes/OneMonokaiDarker-color-theme.json"
+        "path": "./themes/OneMonokaiDarkSemantic-color-theme.json"
       }
     ]
   },
