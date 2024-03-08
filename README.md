@@ -17,3 +17,8 @@ Screenshot of Angular component
 If you like this theme checkout:
 [One Monokai Theme](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai)
 [One Dark Theme](https://marketplace.visualstudio.com/items?itemName=azemoh.theme-onedark)
+
+## Upload new version to Market place
+
+vsce package
+vsce publish
